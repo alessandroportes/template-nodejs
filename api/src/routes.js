@@ -1,10 +1,10 @@
-import { Router } from 'express';
+import { Router } from "express";
 
 const routes = new Router();
 
-routes.get('/', (request, response) => {
+routes.get("/", (request, response) => {
   // rota exemplo
-  response.json({ message: 'Hello World' });
+  response.json({ message: "Hello World" });
 });
 
 export default routes;
